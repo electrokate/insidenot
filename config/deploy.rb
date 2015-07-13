@@ -12,7 +12,7 @@ set :keep_releases, "2"
 set :user, "root"
 set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-set :repository,  "https://github.com/insidenot/insidenot.git"
+set :repository,  "https://github.com/electrokate/insidenot.git"
 set :branch, $1 if `git branch` =~ /\* (\S+)\s/m
 ssh_options[:forward_agent] = true
 
