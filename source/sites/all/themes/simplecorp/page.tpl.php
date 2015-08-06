@@ -17,17 +17,6 @@
                 <?php if (theme_get_setting('social_icons_display','simplecorp')): ?>   
                     <!-- #social-icons -->
                     <div id="social-icons" class="clearfix">
-                        <ul id="social-links">
-                            <li class="facebook-link"><a href="https://www.facebook.com/morethan.just.themes" class="facebook" id="social-01" title="Join Us on Facebook!">Facebook</a></li>
-                            <li class="twitter-link"><a href="https://twitter.com/morethanthemes" class="twitter" id="social-02" title="Follow Us on Twitter">Twitter</a></li>
-                            <li class="google-link"><a href="#" id="social-03" title="Google" class="google">Google</a></li>
-                            <li class="dribbble-link"><a href="#" id="social-04" title="Dribble" class="dribbble">Dribble</a></li>
-                            <li class="vimeo-link"><a href="#" id="social-05" title="Vimeo" class="vimeo">Vimeo</a></li>
-                            <li class="skype-link"><a href="#" id="social-06" title="Skype" class="skype">Skype</a></li>
-                            <li class="linkedin-link"><a href="#" id="social-07" title="Linkedin" class="linkedin">Linkedin</a></li>
-                            <li class="pinterest-link"><a href="#" id="social-09" title="Pinterest" class="pinterest">Pinterest</a></li>
-                            <li class="rss-link"><a href="#" id="social-08" title="RSS" class="rss">RSS Feeds</a></li>
-                        </ul>
                     </div>
                     <!-- EOF: #social-icons -->
                 <?php endif; ?>    
@@ -193,60 +182,7 @@
                 <?php if (theme_get_setting('highlighted_display','simplecorp')): ?>
                         
 					<?php if ($is_front): ?>  
-    
-                    <div class="container clearfix">
-                          
-                        <!--featured-item -->
-                        <div class="one-half">
-                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/featured-img-01.png" class="img-align-left" alt="" />
-                            <h3>Awesome Features</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <div class="readmore">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                        <!--EOF: featured-item -->
-    
-                        <!--featured-item -->
-                        <div class="one-half last">
-                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/featured-img-02.png" class="img-align-left" alt="" />
-                            <h3>Browser Compatibility</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <div class="readmore">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                        <!--EOF: featured-item -->              
-    
-                    </div> 
-                  
-                    <div class="container clearfix">
-    
-                        <!--featured-item -->
-                        <div class="one-half">
-                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/featured-img-03.png" class="img-align-left" alt="" />
-                            <h3>Works on Mobile Devices</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <div class="readmore">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                        <!--EOF: featured-item -->              
-    
-                        <!--featured-item -->
-                        <div class="one-half last">
-                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/featured-img-04.png" class="img-align-left" alt="" />
-                            <h3>Full Documentation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <div class="readmore">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                        <!--EOF: featured-item -->   
-                    
-                    <div class="horizontal-line"> </div>
-    
-                    </div>
+
                        
                     <?php endif; ?>
 
@@ -316,7 +252,7 @@
                         
 					<?php if ($is_front): ?>  
                     
-                    <h3>Some of Our Featured Projects</h3>
+                    <h3>Featured Tours</h3>
                     
                     <ul id="projects-carousel" class="loading">
     
@@ -336,9 +272,9 @@
                                     </div>
                                     <div class="description">
                                         <p>
-                                            <a href="#" title="title"> BlackBerry Website Project</a>
+                                            <a href="#" title="title">Architectural Garden District Tours</a>
                                         </p>
-                                        <span>Web</span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -361,9 +297,9 @@
                                     </div>
                                     <div class="description">
                                         <p>
-                                            <a href="#" title="title"> Vestibulum ante ipsum primis</a>
+                                            <a href="#" title="title">Celebrity Garden District Tours</a>
                                         </p>
-                                        <span>Illustration</span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -386,9 +322,9 @@
                                     </div>
                                     <div class="description">
                                         <p>
-                                            <a href="#" title="title"> Nulla mollis fermentum nunc</a>
+                                            <a href="#" title="title">Historic Garden District Tours</a>
                                         </p>
-                                        <span>Illustration</span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -411,119 +347,20 @@
                                     </div>
                                     <div class="description">
                                         <p>
-                                            <a href="#" title="title"> Cras vel orci sapien</a>
+                                            <a href="#" title="title">Social Tour of Garden District</a>
                                         </p>
-                                        <span>Illustration / Web</span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <!-- PROJECT ITEM ENDS -->
     
-                         <!-- PROJECT ITEM STARTS -->
-                        <li>
-                            <div class="item-content">
-                                <div class="link-holder">
-                                    <div class="portfolio-item-holder">
-                                        <div class="portfolio-item-hover-content">
-    
-                                            <a href="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/portfolio-img-5.jpg" title="title" data-rel="prettyPhoto" class="zoom">View Image</a>
-                                            
-                                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/pt-img5.jpg" alt="" width="220" class="portfolio-img" />
-                                            
-                                            <div class="hover-options"></div>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <p>
-                                            <a href="#" title="title">Curabitur nisl libero</a>
-                                        </p>
-                                        <span>Illustration / Web</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- PROJECT ITEM ENDS -->
-    
-                        <!-- PROJECT ITEM STARTS -->
-                        <li>
-                            <div class="item-content">
-                                <div class="link-holder">
-                                    <div class="portfolio-item-holder">
-                                        <div class="portfolio-item-hover-content">
-    
-                                            <a href="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/portfolio-img-1.jpg" title="title" data-rel="prettyPhoto" class="zoom">View Image</a>
-                                            
-                                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/pt-img1.jpg" alt="" width="220" class="portfolio-img" />
-                                            
-                                            <div class="hover-options"></div>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <p>
-                                            <a href="#" title="title"> BlackBerry Website Project</a>
-                                        </p>
-                                        <span>Web</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- PROJECT ITEM ENDS -->
-    
-                        <!-- PROJECT ITEM STARTS -->
-                        <li>
-                            <div class="item-content">
-                                <div class="link-holder">
-                                    <div class="portfolio-item-holder">
-                                        <div class="portfolio-item-hover-content">
-    
-                                            <a href="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/portfolio-img-2.jpg" title="title" data-rel="prettyPhoto" class="zoom">View Image</a>
-                                            
-                                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/pt-img2.jpg" alt="" width="220" class="portfolio-img" />
-                                            
-                                            <div class="hover-options"></div>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <p>
-                                            <a href="#" title="title"> Vestibulum ante ipsum primis</a>
-                                        </p>
-                                        <span>Illustration</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- PROJECT ITEM ENDS -->
-    
-                        <!-- PROJECT ITEM STARTS -->
-                        <li>
-                            <div class="item-content">
-                                <div class="link-holder">
-                                    <div class="portfolio-item-holder">
-                                        <div class="portfolio-item-hover-content">
-    
-                                            <a href="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/portfolio-img-3.jpg" title="title" data-rel="prettyPhoto" class="zoom">View Image</a>
-                                            
-                                            <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/pt-img3.jpg" alt="" width="220" class="portfolio-img" />
-                                            
-                                            <div class="hover-options"></div>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <p>
-                                            <a href="#" title="title"> Nulla mollis fermentum nunc</a>
-                                        </p>
-                                        <span>Illustration</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- PROJECT ITEM ENDS -->
     
                     </ul>
     
                     <!-- // optional "view full portfolio" button on homepage featured projects -->
-                    <a href="#" class="colored" title="portofolio">View full portofolio</a> 
+                    <!-- <a href="#" class="colored" title="portofolio">View full portofolio</a>  -->
                
                 <?php endif; ?>
 
@@ -569,7 +406,7 @@
             <?php endif; ?>
 
             <!-- #footer-bottom -->
-            <div id="footer-bottom">
+<!--             <div id="footer-bottom">
                 <div class="container clearfix">
                     <span class="right"><a class="backtotop" href="#">↑</a></span>
                     <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('class' => array('menu', 'secondary-menu', 'links', 'clearfix')))); ?>
@@ -583,7 +420,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
             <!-- EOF: #footer-bottom -->
             
         </footer> 
